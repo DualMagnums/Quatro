@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+</head>
+<body>
+	<div id="page">
+		<header id="header">
+			<div>
+				<a href="index.html" class="logo"><img src="images/logo.svg" alt="logo"></a>
+				<ul id="navigation">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li class="menu">
+						<a href="flavours.html">Flavours</a>
+					</li>
+					<li class="selected">
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<div id="body">
+			<div class="header">
+				<div class="contact">
+					<h1>Contact</h1>
+					<h2>IF YOU WOULD LIKE TO SET UP AN ORDER SEND US A TEXT OR GIVE US A CALL</h2>
+					<h3><a href="tel:6789998212">Call 678-999-8212</a></h3>
+					<form action="index.html">
+						<input type="text" name="Name" value="Name" onblur="this.value=!this.value?'Name':this.value;" onfocus="this.select()" onclick="this.value='';">
+						<input type="text" name="Email Address" value="Email Address">
+						<input type="text" name="Subject" value="Subject">
+						<textarea name="message" cols="50" rows="7">Message</textarea>
+						<input type="submit" value="Send" id="submit">
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="connect">
+				<div>
+					<h1>FOLLOW US ON</h1>
+					<div>
+						<a href="http://facebook.com" class="facebook">facebook</a>
+						<a href="http://twitter.com" class="twitter">twitter</a>
+					</div>
+				</div>
+			</div>
+			<div class="footnote">
+				<div>
+					<p>&copy; 2023 BY KALONGA EMANUEL KABONGO | ALL RIGHTS RESERVED</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
